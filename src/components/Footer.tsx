@@ -11,7 +11,7 @@ export default function Footer() {
             <span className="font-headline text-headline-md text-on-surface font-bold">ARD-AGRO</span>
           </div>
           <p className="text-on-surface-variant text-body-sm max-w-xs">
-            Запчасти для импортной сельхозтехники. Собственный склад в РФ, отгрузка в день заказа.
+            Уже более 8-ми лет мы поставляем запасные части и комплектующие для сельхозтехники мировых производителей.
           </p>
           <div className="mt-4 text-on-surface-variant text-body-sm">
             © {new Date().getFullYear()} ARD-AGRO. Все права защищены.
@@ -21,17 +21,20 @@ export default function Footer() {
         {/* Navigation */}
         <div className="flex flex-col gap-4">
           <h4 className="font-bold text-on-surface uppercase tracking-wider text-technical-label mb-2">
-            Навигация
+            Каталог
           </h4>
           <nav className="flex flex-col gap-3">
             <Link href="/catalog" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
-              Каталог
+              Карданные валы и шрусы
             </Link>
-            <Link href="/#brands" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
-              Бренды
+            <Link href="/catalog" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
+              Режущие части
             </Link>
-            <Link href="/#categories" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
-              Категории
+            <Link href="/catalog" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
+              Подшипники и ступицы
+            </Link>
+            <Link href="/catalog" className="text-on-surface-variant hover:text-primary transition-colors text-body-sm">
+              Гидравлика
             </Link>
           </nav>
         </div>

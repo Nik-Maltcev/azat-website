@@ -8,26 +8,26 @@ export default function HeroSection() {
         {/* Content Box */}
         <div className="bg-primary p-8 md:p-12 rounded-lg shadow-xl max-w-xl text-on-primary">
           <h1 className="text-headline-lg-mobile md:text-headline-lg font-headline mb-6 leading-tight">
-            В наличии на складе, отгрузка день в день. Помощь в подборе экспертом.
+            Запчасти и комплектующие для импортной с/х техники по ценам на 15% ниже рыночных.
           </h1>
           <ul className="flex flex-col gap-4 mb-8">
             <li className="flex items-center gap-3">
               <span className="material-symbols-outlined text-secondary-container filled">
                 check_circle
               </span>
-              <span className="text-body-lg">Огромный склад в РФ</span>
+              <span className="text-body-lg">От 40 производителей техники</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="material-symbols-outlined text-secondary-container filled">
                 bolt
               </span>
-              <span className="text-body-lg">Отгрузка в день заказа</span>
+              <span className="text-body-lg">В наличии и под заказ от 10 дней</span>
             </li>
             <li className="flex items-center gap-3">
               <span className="material-symbols-outlined text-secondary-container filled">
                 engineering
               </span>
-              <span className="text-body-lg">Помощь инженера в подборе</span>
+              <span className="text-body-lg">Опыт более 8 лет</span>
             </li>
           </ul>
           <button className="bg-secondary-container hover:bg-secondary text-on-primary px-8 py-4 rounded font-headline text-body-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 w-full md:w-auto flex justify-center items-center gap-2 uppercase tracking-wide">

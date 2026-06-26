@@ -2,33 +2,45 @@ import Link from "next/link";
 
 const categories = [
   {
-    name: "Крестовины",
-    description: "Надежные крестовины для высоких нагрузок. От ведущих европейских OEM производителей.",
-    icon: "settings",
+    name: "Карданные валы и шрусы",
+    description: "Карданные валы, крестовины, вилки, защитные кожухи для импортной сельхозтехники.",
+    icon: "precision_manufacturing",
     large: true,
   },
   {
-    name: "Вилки",
+    name: "Режущие части",
     description: "",
-    icon: "handyman",
+    icon: "content_cut",
     large: false,
   },
   {
-    name: "Трубы (Профили)",
+    name: "Подшипники и ступицы",
     description: "",
-    icon: "view_column",
+    icon: "settings",
     large: false,
   },
   {
-    name: "Защитные кожухи",
+    name: "Детали для жаток",
     description: "",
-    icon: "shield",
+    icon: "agriculture",
     large: false,
   },
   {
-    name: "Адаптеры и Муфты",
+    name: "Гидравлика",
     description: "",
-    icon: "settings_applications",
+    icon: "water_drop",
+    large: false,
+  },
+  {
+    name: "Запчасти для ТО",
+    description: "",
+    icon: "build",
+    large: false,
+  },
+  {
+    name: "Сельхоз шины",
+    description: "",
+    icon: "trip_origin",
     large: false,
   },
 ];
@@ -38,7 +50,7 @@ export default function CategoriesSection() {
     <section id="categories" className="py-16 bg-surface">
       <div className="px-margin-mobile md:px-margin-desktop max-w-content mx-auto">
         <h2 className="text-headline-lg font-headline mb-10 text-on-surface">
-          Категории запчастей
+          Выберите категорию товаров
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px]">
           {categories.map((cat, index) => (
